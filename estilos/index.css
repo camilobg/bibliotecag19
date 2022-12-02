@@ -3,7 +3,7 @@ h1{
     text-align:center;
 }
 .estilo_titulo{
-    font-family:Arial;
+    font-family: 'Zen Dots', cursive;
     color:black;
     width:50%
 }
@@ -19,6 +19,32 @@ h1{
 }
 #formulario{
     background-color:white;
+    margin-left:30%;
+    width:40%;
+    margin-right: 30%;
+}
+#formulario-titulo{
+    color:black;
+    text-align: center;
+}
+label{
+    width:30%;
+    font-family: arial;
+    display:inline-block;
+}
+input[type="text"],select{
+    width:60%;
+}
+.boton_formulario{
+    background-color: rgb(245, 245, 245);
+    border-color: orange;
+    color: black;
+    width:34%;
+    height:35%;
+    margin-left: 10%;
+}
+.boton_formulario:hover{
+    color:orange;
 }
 
 nav{
@@ -41,7 +67,15 @@ li a{
 li a:hover{
     color: grey;
 }
-
+table{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+}
 /*footer*/
 footer{
     width:100%;
@@ -139,7 +173,7 @@ span{
     -webkit-transform: translate(-50%, -50%);
 }
 h3{
-    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Zen Dots', cursive;   
 }
 
 .estilo_boton{
@@ -148,3 +182,4 @@ h3{
     background-color: rgb(229, 255, 0);  
     border:rgb(229, 255, 0);
 }
+
