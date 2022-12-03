@@ -197,7 +197,7 @@ h3{
     border:rgb(229, 255, 0);
 }
 
-/**responsive we design**/
+/**responsive we design
 @media screen and (max-width:640px){
     header{
         background-color:chocolate;
