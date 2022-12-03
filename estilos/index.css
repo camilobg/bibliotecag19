@@ -1,6 +1,14 @@
+header{
+    background-color:rgb(163, 47, 47);
+    width:100%;
+    height:120px;
+}
 h1{
     color:darkcyan; 
     text-align:center;
+    margin-top: 10%;
+    padding-left: 20%;
+    padding-top: -50%;
 }
 .estilo_titulo{
     font-family: 'Zen Dots', cursive;
@@ -8,7 +16,11 @@ h1{
     width:50%
 }
 .caja_logo{
-    background-color:brown;width:50% ;height:120px;text-align:center;float:left
+    background-color:brown;
+    width:50%;
+    height:120px;
+    text-align:center;
+    float:left
 }
 .caja_titulo{
     text-align:left;
@@ -49,8 +61,10 @@ input[type="text"],select{
 
 nav{
     text-align:center;
-    background-color:aqua;
-
+    background-color:rgb(255, 255, 255);
+    width:80%;
+    margin-left: 10%;
+    margin-top: 13%;
 }
 li{
     display:inline-block;
@@ -86,19 +100,19 @@ footer{
 .caja1{
     width:33%;
     height:220px;
-    background-color:yellow;
+    background-color:rgb(255, 255, 255);
     float:left;
 }
 .caja2{
     width:33%;
     height:220px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     float:left;
 }
 .caja3{
     width:33%;
     height:220px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     float:left;
 }
 .caja_superior{
@@ -183,3 +197,94 @@ h3{
     border:rgb(229, 255, 0);
 }
 
+/**responsive we design**/
+@media screen and (max-width:640px){
+    header{
+        background-color:chocolate;
+        width:100%;
+        height:220px;
+    }
+    .caja_logo{
+        background-color:brown;
+        width:100%;
+        height:120px;
+        text-align:center;
+    }
+    .caja_titulo{
+        text-align:center;
+        background-color:yellow;
+        height:60px;
+        width:100%;
+        position:relative;
+    }
+    div h1{
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+    .estilo_titulo{
+        font-family: 'Zen Dots', cursive;
+        color:black;
+        width:100%
+    }
+    li{
+        display:inline-block;
+        width:32%;
+        background-color:orange;
+        height:30px;
+        padding-top:-60%;
+        text-align: center;
+        margin-top:0%;
+    }
+    
+    nav{
+        text-align: left;
+        display:inline-block;
+        width:110%;
+        margin-left: -10%;
+        margin-top:0%;
+        
+    }
+    #formulario{
+        background-color:rgb(255, 255, 255);
+        margin-left:10%;
+        width:80%;
+        margin-right: 10%;
+    }
+    h3{
+        font-family: 'Zen Dots', cursive;
+        font-size: 75%;
+    }
+    span{
+        font-size: 150% !important;
+        color:blueviolet;
+    }
+    .caja_superior{
+        width:100%;
+        height:40px;
+        background-color: red;
+        border: 1px solid saddlebrown;
+    }
+    .caja_superior1{
+        width:80%;
+        height:40px;
+        background-color: rgb(55, 184, 83); 
+        float:left;
+        position: relative;
+    }
+    .caja_superior2{
+        width:20%;
+        height:40px;
+        background-color: rgb(255, 0, 200);
+        float:left;
+        position: relative;
+    }
+    .estilo_boton{
+        width:80%;
+        height:30px;
+        background-color: rgb(229, 255, 0);  
+        border:rgb(229, 255, 0);
+    }
+}
